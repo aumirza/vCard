@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "../images/profile-pic.png";
 
 export const Header = () => {
   return (
@@ -6,7 +7,7 @@ export const Header = () => {
       <div className="realtive flex h-[15rem] items-center justify-between">
         <div className="w-4 h-2/3 bg-primary rounded-r-xl"></div>
         <div className="h-48 w-48 shadow-lg rounded-full border-8 border-primary ">
-          <img src="/profile-pic.png" alt="" />
+          <img src={ProfilePic} alt="" />
         </div>
         <div className="w-4"></div>
       </div>
